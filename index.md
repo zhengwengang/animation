@@ -6,6 +6,7 @@
 > 1. 当前页面有视频元素时: 当前页面视频(裁剪后)时长最长的时间
 > 2. 当前页面没有视频元素时: 取页面设置的时长: pageJson.pageAnimationDuration 范围 0.1s ~ 30s，
 > 3. 默认为 5s
+> 
 
 ```javascript
 get pageDuration() {
